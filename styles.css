@@ -46,7 +46,7 @@ nav {
     z-index:1; 
     background-color: #000000;
     height: 6rem;
-    font-family: Kristen ITC;
+    font-family: Comic Sans MS;
     
   }
 
@@ -99,25 +99,27 @@ nav {
     text-align: center;
     background-color: #ecf0f1;
     border-bottom: 1px solid #ccc;
-    height:100vh
-    
-
-
+    height: 100vh
 }
 
 .first {
-    margin-top: 100px;
+    margin-top: 10px;
     background-image: url(night-sky.jpg);
 }
 
 #four {
-    margin-top: 100px;
+    margin-top: 10px;
     background-image: url(dog.jpg);
 }
 
 #three {
-    margin-top: 1000px;
+    margin-top: 0px;
     background-image: url(nothing.jpg);
+    background-position: 0px 0px;
+    background-size: cover
+
+
+    
 }
 
 
@@ -127,49 +129,43 @@ nav {
     justify-content: center;
     align-items: center;
     height: 200px;
-
 }
 
 #hello {
     color: #d0d7d9;
 
-    font-family: Kristen ITC;
+    font-family: Comic Sans MS;
     font-size: 5em;
 }
 
 #sohum {
     color: #ca4e1d;;
-
-    font-family: Kristen ITC;
+    font-family: Comic Sans MS;
     font-size: 5em;
 }
 
 #description {
     color: #d0d7d9;
-
-    font-family: Kristen ITC;
+    font-family: Comic Sans MS;
     font-size: 2em;
 }
 
 #smile {
     color: #ca4e1d;;
-
-    font-family: Kristen ITC;
+    font-family: Comic Sans MS;
     font-size: 1em;
 }
 
 
 #gram {
     color: #ca4e1d;;
-
-    font-family: Kristen ITC;
+    font-family: Comic Sans MS;
     font-size: 2em;
 }
 
 #mail {
     color: #ca4e1d;;
-
-    font-family: Kristen ITC;
+    font-family: Comic Sans MS;
     font-size: 2em;
 }
 
@@ -188,8 +184,7 @@ nav {
 
 .item h2 {
     color:#000000;
-    font-size: 1.2em;
-
+    font-size: 1.5em;
 }
 
 .row {
@@ -281,7 +276,7 @@ max-width: 32%;
 button {
     border: none;
     color:#ca4e1d;
-    font-family: Kristen ITC;
+    font-family: Comic Sans MS;
     font-weight: bold;
     background-color: #000000;
     padding: 10px 8px;
