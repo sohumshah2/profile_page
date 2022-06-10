@@ -1,0 +1,295 @@
+
+
+
+
+* { 
+    margin: 0; 
+    padding: 0; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box; 
+    scroll-behavior: smooth; 
+    
+    }
+
+html {
+    min-height: 100%;
+}
+
+#all{
+    background-image: url(night-sky.jpg);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+    
+body { 
+font-family: 'Open Sans', sans-serif; 
+
+
+}
+
+h1,h2,h3,h4,h5,h6,a{
+    margin:0;
+}
+
+
+
+a {
+color: inherit;
+}
+
+nav {
+    top: 0%;
+    width: 100%;
+    position: fixed;
+    z-index:1; 
+    background-color: #000000;
+    height: 6rem;
+    font-family: Kristen ITC;
+    
+  }
+
+#title {
+    font-size: 1.4em;
+}
+
+
+  .container {
+      padding: 22px;
+      margin: 0 auto;
+      text-align: center;
+  }
+
+  .container ul li {
+      list-style: none;
+      margin: 0 10px;
+      display:inline-block;
+  }
+
+  .container ul li a:hover {
+      padding: 12px;
+      color: #fc0;
+  }
+
+  .container ul li a {
+      margin: 8px;
+      padding: 10px;
+      color: #fff;
+      font-size: 1.2em;
+      text-decoration: none;
+      transition: all 0.3s ease-out;
+  }
+
+  .active {
+    border-bottom: 2px solid #d0d7d9;
+}
+
+.container p{
+    margin-bottom: 16px;
+    color: #fc0;
+    font-weight: 700;
+    font-size: 20px;
+    }
+
+.item {
+    scroll-margin-top: 6rem;
+    width: 100%;
+    height: 280px;
+    text-align: center;
+    background-color: #ecf0f1;
+    border-bottom: 1px solid #ccc;
+    height:100vh
+    
+
+
+}
+
+.first {
+    margin-top: 100px;
+    background-image: url(night-sky.jpg);
+}
+
+#four {
+    margin-top: 100px;
+    background-image: url(dog.jpg);
+}
+
+#three {
+    margin-top: 1000px;
+    background-image: url(nothing.jpg);
+}
+
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+
+}
+
+#hello {
+    color: #d0d7d9;
+
+    font-family: Kristen ITC;
+    font-size: 5em;
+}
+
+#sohum {
+    color: #ca4e1d;;
+
+    font-family: Kristen ITC;
+    font-size: 5em;
+}
+
+#description {
+    color: #d0d7d9;
+
+    font-family: Kristen ITC;
+    font-size: 2em;
+}
+
+#smile {
+    color: #ca4e1d;;
+
+    font-family: Kristen ITC;
+    font-size: 1em;
+}
+
+
+#gram {
+    color: #ca4e1d;;
+
+    font-family: Kristen ITC;
+    font-size: 2em;
+}
+
+#mail {
+    color: #ca4e1d;;
+
+    font-family: Kristen ITC;
+    font-size: 2em;
+}
+
+
+
+
+
+.default {
+    margin-top: 64px;
+
+}
+
+.col-full {
+    width: 1044px;
+}
+
+.item h2 {
+    color:#000000;
+    font-size: 1.2em;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 4px;
+    display: inline;
+
+    
+  }
+
+.column {
+padding: 0 4px;
+flex-direction: column;
+}
+
+.column img {
+margin-top: 8px;
+vertical-align: middle;
+height: auto;
+max-width: 32%;
+
+}
+.row img {
+    margin-top: 8px;
+    vertical-align: middle;
+    max-width: 32%;
+    height: auto;
+    }
+
+#cs {
+    padding-left: 0.15em;
+}
+
+#explora {
+    padding-right: 0.15em;
+    
+    
+    
+}
+
+.image {
+    position: relative;
+    display: inline;
+}
+
+.image__img {
+    width: 100%;
+    height: 100%;
+}
+
+.image__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    color: #ffffff;
+    font-weight: medium;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+    text-shadow: -1px 0 black, 0 1px black;
+
+    
+}
+
+.image__overlay:hover {
+    opacity: 1;
+}
+
+
+.image__title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.image__description {
+    font-size: 1.25em;
+    margin-top: 0.25em;
+}
+
+button {
+    border: none;
+    color:#ca4e1d;
+    font-family: Kristen ITC;
+    font-weight: bold;
+    background-color: #000000;
+    padding: 10px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 1px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
